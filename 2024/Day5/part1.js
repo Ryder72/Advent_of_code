@@ -1,7 +1,7 @@
 const fs = require("fs");
 const { getFilePath } = require("../../utils");
 
-const filePath = getFilePath("/2024/Day6/input.txt");
+const filePath = getFilePath("/2024/Day5/input.txt");
 
 fs.readFile(filePath, "utf8", (err, data) => {
   countPositions(data);
